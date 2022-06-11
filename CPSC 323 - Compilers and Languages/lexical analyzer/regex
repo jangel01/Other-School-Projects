@@ -1,0 +1,35 @@
+addOp         (+ | -)
+
+assignOp       (= | (+ | - | * | / ) = )
+
+char          (' [a-z|A-Z | 0-9 | \\ | \' | \" | \b | \n | \r | \t ] ')
+
+comma         ( , )
+
+comparator    ( < | > | (> | < | = | !) = )  
+
+floatLiteral     ([0-9][0-9]*.[0-9*]) |  ([0-9]*. [0-9][0-9]*) | (([0-9][0-9]*.[0-9]* | [0-9]*.[0-9][0-9]* | [0-9][0-9]*) ([eE] | [eE]-) [0-9][0-9]*)
+
+
+incrOp  ( ++ | - - ) 
+
+identifier      ([a-zA-Z] | _ ) ([a-zA-Z] | [0 - 9] | _ )*
+
+intLiteral    ( [0-9][0-9]* | [0-9] [0-9]* (u | ul | l | Lu))
+
+leftBrace     ( { )
+
+logicalNot      ( ! )
+
+leftParen       ( ( )
+
+multOp        ( * | / )
+
+rightBrace      ( } )
+
+rightParen      ( ) )
+
+semicolon       ( ; )
+
+string      "[(a-z)(A-Z)(0-9)(\\n)(\t)( )(\)(,)]*"
+

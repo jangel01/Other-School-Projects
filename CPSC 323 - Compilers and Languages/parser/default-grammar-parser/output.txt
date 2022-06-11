@@ -1,0 +1,14 @@
+The stack, input, and action for each step are shown from left to right respectively.
+1. E0 | id = id + id + id $ | Shift
+2. E0id3 | = id + id + id $ | Reduce
+3. E0E2 | = id + id + id $ | Shift
+4. E0E2=5 | id + id + id $ | Shift
+5. E0E2=5id8 | + id + id $ | Reduce
+6. E0E2=5E7 | + id + id $ | Shift
+7. E0E2=5E7+9 | id + id $ | Shift
+8. E0E2=5E7+9id10 | + id $ | Reduce
+9. E0E2=5E7 | + id $ | Shift
+10. E0E2=5E7+9 | id $ | Shift
+11. E0E2=5E7+9id10 | $ | Reduce
+12. E0E2=5E7 | $ | Reduce
+13. E0S1 | $ | ACCT

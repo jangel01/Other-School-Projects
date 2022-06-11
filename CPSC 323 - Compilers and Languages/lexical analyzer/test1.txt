@@ -1,0 +1,18 @@
+int main() {
+    // comment
+    printf("Hello world\n");
+    char a = '\n';
+    char c = 'x';
+    float w;
+	int x, y, z;
+	w = 7.12e11;
+	x = 334;
+	x++;
+	y = 5;
+	z = x + y;
+	/*
+	    Multi-line
+	    comment
+	*/
+	return 0;
+}
