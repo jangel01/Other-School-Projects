@@ -1,0 +1,13 @@
+Welcome to Forgotten Books, a bookstore filled with books from all nations. Place books into your shopping cart by entering each book's information.
+   Enclose string entries in quotes, separate fields with comas
+   Enter CTL-Z(Windows) or CTL-D(Linux) to quit
+
+Enter ISBN, Title, Author, and Price:
+Item added to shopping cart: "0307283666", "Harry Potter and the Half-Blood Prince ", "J.K. Rowling", 15.86
+Enter ISBN, Title, Author, and Price:
+Item added to shopping cart: "9780743273565", "The Great Gatsby", "F. Scott Fitzgerald", 8.74
+Enter ISBN, Title, Author, and Price:
+
+Here is an itemized list of the items in your shopping cart:
+"9780743273565", "The Great Gatsby", "F. Scott Fitzgerald", 8.74
+"0307283666", "Harry Potter and the Half-Blood Prince ", "J.K. Rowling", 15.86

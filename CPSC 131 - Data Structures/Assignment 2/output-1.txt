@@ -1,0 +1,87 @@
+My Book List
+    0:  "", "Les Mis", "", 0
+    1:  "", "Inviable Man", "", 0
+    2:  "", "Moby Dick", "", 0
+    3:  "", "A Tale of Two Cities", "", 0
+
+My roommate's Book List
+    0:  "", "Hunger Games", "S. Collins", 0
+    1:  "", "Hunger Games", "Suzanne Collins", 0
+    2:  "", "Les Mis", "", 0
+    3:  "", "Secret Garden", "Frances Hodgson Burnett", 0
+    4:  "", "Charlie & Choc Factory", "", 0
+
+Combined Book Lists
+    0:  "", "Les Mis", "", 0
+    1:  "", "Inviable Man", "", 0
+    2:  "", "Moby Dick", "", 0
+    3:  "", "Oliver Twist", "Charles Dickens", 0
+    4:  "", "A Tale of Two Cities", "", 0
+    5:  "", "Ulysses", "", 0
+    6:  "", "The Color Purple", "", 0
+    7:  "", "Hunger Games", "S. Collins", 0
+    8:  "", "Hunger Games", "Suzanne Collins", 0
+    9:  "", "Charlie & Choc Factory", "", 0
+
+
+Expected results:
+    0:  "", "Les Mis", "", 0
+    1:  "", "Inviable Man", "", 0
+    2:  "", "Moby Dick", "", 0
+    3:  "", "Oliver Twist", "Charles Dickens", 0
+    4:  "", "A Tale of Two Cities", "", 0
+    5:  "", "Ulysses", "", 0
+    6:  "", "The Color Purple", "", 0
+    7:  "", "Hunger Games", "S. Collins", 0
+    8:  "", "Hunger Games", "Suzanne Collins", 0
+    9:  "", "Charlie & Choc Factory", "", 0
+
+
+Actual results:
+    0:  "", "Les Mis", "", 0
+    1:  "", "Inviable Man", "", 0
+    2:  "", "Moby Dick", "", 0
+    3:  "", "Oliver Twist", "Charles Dickens", 0
+    4:  "", "A Tale of Two Cities", "", 0
+    5:  "", "Ulysses", "", 0
+    6:  "", "The Color Purple", "", 0
+    7:  "", "Hunger Games", "S. Collins", 0
+    8:  "", "Hunger Games", "Suzanne Collins", 0
+    9:  "", "Charlie & Choc Factory", "", 0
+
+
+Test results:  PASS
+########################################
+First book list (initial): 
+    0:  "", "The Great Gatsby", " F.Scott Fitzgerald", 0
+    1:  "", "The Catcher in the Rye", "J. D. Salinger", 0
+    2:  "", "The Cat in the Hat", "Dr. Seuss", 0
+    3:  "", "The Road", "Cormac McCarthy", 0
+    4:  "", "Diary of a Wimpy Kid", "Jeff Kinney", 0
+
+First book list (modified): 
+    0:  "", "The Catcher in the Rye", "J. D. Salinger", 0
+    1:  "", "The Great Gatsby", " F.Scott Fitzgerald", 0
+    2:  "", "The Cat in the Hat", "Dr. Seuss", 0
+    3:  "", "Starting Out with C++ 9th edition", "Tony Gaddis", 0
+    4:  "", "The Road", "Cormac McCarthy", 0
+
+Second book list: 
+    0:  "", "To Kill a Mocking Bird", "Harper Lee", 0
+    1:  "", "Of Mice and Men", "John Steinbeck", 0
+    2:  "", "Lord of the Flies", "William Golding", 0
+    3:  "", "Night", "Elie Wiesel", 0
+
+---First book list is greater than the second--- 
+
+First and second book list combined: 
+    0:  "", "The Catcher in the Rye", "J. D. Salinger", 0
+    1:  "", "The Great Gatsby", " F.Scott Fitzgerald", 0
+    2:  "", "The Cat in the Hat", "Dr. Seuss", 0
+    3:  "", "Starting Out with C++ 9th edition", "Tony Gaddis", 0
+    4:  "", "The Road", "Cormac McCarthy", 0
+    5:  "", "To Kill a Mocking Bird", "Harper Lee", 0
+    6:  "", "Of Mice and Men", "John Steinbeck", 0
+    7:  "", "Lord of the Flies", "William Golding", 0
+    8:  "", "Night", "Elie Wiesel", 0
+
