@@ -1,0 +1,14 @@
+b main
+b 8
+i b
+r
+c
+p/x $rbp
+p/x $rsp
+p/d ($rbp - $rsp)/8 +1
+c
+Angel
+Programmer 
+1.0 1.0
+q
+

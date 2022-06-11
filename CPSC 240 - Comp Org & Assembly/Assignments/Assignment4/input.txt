@@ -1,0 +1,18 @@
+b main
+b hertz.asm:81
+b hertz.asm:170
+r
+n
+n
+n
+p/x $rsp
+c
+Programmer
+x/s &userName
+c
+7.1
+8.2
+p/f $xmm0.v2_double[0]
+c
+q
+

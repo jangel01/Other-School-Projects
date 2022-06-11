@@ -1,0 +1,18 @@
+b main
+b triangle
+b triangle.asm:88
+i b
+r
+c
+p/x &namePrompt
+p/s ((char[4])namePrompt)[3]
+x/sb &namePrompt
+p/d ($rbp - $rsp)/8 + 1
+p/u $xmm2.v2_int64[0]
+c
+c
+Angel
+Programmer
+1.0 1.0
+q
+
