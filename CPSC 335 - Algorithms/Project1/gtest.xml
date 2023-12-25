@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="12" failures="0" disabled="0" errors="0" time="1.75" timestamp="2022-04-18T15:41:42" name="AllTests">
+  <testsuite name="run_length_encode_trivial_cases" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:42">
+    <testcase name="trivial_cases" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:42" classname="run_length_encode_trivial_cases" />
+  </testsuite>
+  <testsuite name="run_length_encode_error_handling" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:42">
+    <testcase name="error_handling" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:42" classname="run_length_encode_error_handling" />
+  </testsuite>
+  <testsuite name="run_length_encode_just_one_run" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:42">
+    <testcase name="just_one_run" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:42" classname="run_length_encode_just_one_run" />
+  </testsuite>
+  <testsuite name="run_length_encode_mixture" tests="1" failures="0" disabled="0" errors="0" time="0.929" timestamp="2022-04-18T15:41:42">
+    <testcase name="mixture" status="run" result="completed" time="0.929" timestamp="2022-04-18T15:41:42" classname="run_length_encode_mixture" />
+  </testsuite>
+  <testsuite name="longest_frequent_substring_trivial_cases" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:43">
+    <testcase name="trivial_cases" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:43" classname="longest_frequent_substring_trivial_cases" />
+  </testsuite>
+  <testsuite name="longest_frequent_substring_nontrivial_cases" tests="1" failures="0" disabled="0" errors="0" time="0.818" timestamp="2022-04-18T15:41:43">
+    <testcase name="nontrivial_cases" status="run" result="completed" time="0.818" timestamp="2022-04-18T15:41:43" classname="longest_frequent_substring_nontrivial_cases" />
+  </testsuite>
+  <testsuite name="reformat_date_pattern_1" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-04-18T15:41:44">
+    <testcase name="pattern_1" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:44" classname="reformat_date_pattern_1" />
+  </testsuite>
+  <testsuite name="reformat_date_pattern_2" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:44">
+    <testcase name="pattern_2" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:44" classname="reformat_date_pattern_2" />
+  </testsuite>
+  <testsuite name="reformat_date_pattern_3" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:44">
+    <testcase name="pattern_3" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:44" classname="reformat_date_pattern_3" />
+  </testsuite>
+  <testsuite name="reformat_date_pattern_4" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2022-04-18T15:41:44">
+    <testcase name="pattern_4" status="run" result="completed" time="0" timestamp="2022-04-18T15:41:44" classname="reformat_date_pattern_4" />
+  </testsuite>
+  <testsuite name="reformat_invalid_format" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-04-18T15:41:44">
+    <testcase name="invalid_format" status="run" result="completed" time="0.001" timestamp="2022-04-18T15:41:44" classname="reformat_invalid_format" />
+  </testsuite>
+  <testsuite name="reformat_invalid_field" tests="1" failures="0" disabled="0" errors="0" time="0.001" timestamp="2022-04-18T15:41:44">
+    <testcase name="invalid_field" status="run" result="completed" time="0.001" timestamp="2022-04-18T15:41:44" classname="reformat_invalid_field" />
+  </testsuite>
+</testsuites>
